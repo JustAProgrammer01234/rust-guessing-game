@@ -6,7 +6,7 @@ fn main() {
     println!("Guess the right number that's from 1-100. Good luck!"); 
 
     loop {
-        println!("Please input your guess."); 
+        println!("Please input your guess:"); 
         let mut guess = String::new(); 
 
         io::stdin()
